@@ -62,4 +62,10 @@ prod: yarn start:prod
 ```
 // Get all users
 * { GET } /api/v1/users
+
+// Update  user
+* { PATCH } /api/v1/users/updateMe
+
+// Get all users
+* { GET } /api/v1/users
 ```
