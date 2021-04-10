@@ -35,7 +35,7 @@ prod: yarn start:prod
 * { GET } /api/v1/tours/monthly-plan/2021
 
 // Delete a tour
-* { GET } /api/v1/tours/6055c999db6eda2b046acc5f
+* { DELETE } /api/v1/tours/6055c999db6eda2b046acc5f
 
 ```
 
@@ -63,9 +63,9 @@ prod: yarn start:prod
 // Get all users
 * { GET } /api/v1/users
 
-// Update  user
+// Update  user(self)
 * { PATCH } /api/v1/users/updateMe
 
-// Get all users
-* { GET } /api/v1/users
+// Delete User(self)
+* { DELETE } /api/v1/users/deleteMe
 ```
