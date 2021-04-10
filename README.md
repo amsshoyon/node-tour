@@ -1,7 +1,7 @@
-### Node(Express): Tour ###
+# Node(Express): Tour #
 
+## Commands ##
 ```
-Run Project by command
 dev: yarn start:dev
 prod: yarn start:prod
 
