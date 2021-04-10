@@ -8,9 +8,8 @@ prod: yarn start:prod
 ```
 
 ## APIs ##
+### Tour APIs ###
 ```
-// Tour APIs
-
 // Get all tours
 * { GET } /api/v1/tours
 
@@ -40,9 +39,8 @@ prod: yarn start:prod
 
 ```
 
+### Auth APIs ###
 ```
-// Auth APIs
-
 // Sign Up
 * { POST } /api/v1/users/signup
 
@@ -60,9 +58,8 @@ prod: yarn start:prod
 
 ```
 
+### User APIs ###
 ```
-// User APIs
-
 // Get all users
 * { GET } /api/v1/users
 ```
