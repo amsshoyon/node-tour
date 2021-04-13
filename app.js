@@ -11,7 +11,6 @@ const hpp = require('hpp');
 const app = express();
 
 // 1) Global MIDDLEWARES
-
 app.use(helmet())
 
 // Development logging
