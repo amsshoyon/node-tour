@@ -120,8 +120,8 @@ tourSchema.virtual('durationWeeks').get(function() {
 // Virtual populate
 tourSchema.virtual('reviews', {
 	ref: 'Review',
-	localField: '_id',
-	foreignField: 'tour'
+	foreignField: 'tour',
+	localField: '_id'
 });
 
 // Document Middleware: runs before .save() and .create()
