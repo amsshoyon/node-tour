@@ -7,8 +7,7 @@
 		"start:dev": "nodemon server.js",
 		"start:prod": "set NODE_ENV=production&&nodemon server.js",
 		"debug": "ndb server.js",
-		"import:tours": "node ./dev-data/data/import-tours.js --delete&&node ./dev-data/data/import-tours.js --import",
-		"import:users": "node ./dev-data/data/import-users.js --delete&&node ./dev-data/data/import-users.js --import"
+		"importData": "node ./dev-data/data/import.js --delete&&node ./dev-data/data/import.js --import"
 	},
 	"author": "",
 	"license": "ISC",

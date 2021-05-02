@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const slugify = require('slugify');
-// const User = require('./userModel');
 
 const tourSchema = new mongoose.Schema({
 		name: {
@@ -112,6 +111,9 @@ const tourSchema = new mongoose.Schema({
 		toObject: {virtuals: true }
 	}
 );
+
+tourSchema.index({price: 1, ratingsAverage: -1})
+tourSchema.index({slug: 1})
 
 tourSchema.virtual('durationWeeks').get(function() {
 	return this.duration / 7;

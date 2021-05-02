@@ -6,8 +6,7 @@ const router = express.Router({ mergeParams: true });
 
 router.use(authController.protect);
 
-router
-    .route('/')
+router.route('/')
     .get(reviewController.getAllReviews)
     .post(
         authController.restrictTo('user'),
@@ -15,8 +14,7 @@ router
         reviewController.createReview
     );
 
-router
-    .route('/:id')
+router.route('/:id')
     .get(reviewController.getReview)
     .patch(
         authController.restrictTo('user', 'admin'),
