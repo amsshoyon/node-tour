@@ -1,4 +1,11 @@
 # Node(Express): Tour : Live Url (Production)-> https://node-tour.herokuapp.com #
+Express Rest API for
+* Tour management
+* Tour Filtering
+* Assigning Tour Guides
+* Tour Booking
+* User Authentication
+* etc
 
 ## Commands ##
 ```
